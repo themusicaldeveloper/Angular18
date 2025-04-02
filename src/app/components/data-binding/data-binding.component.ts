@@ -10,10 +10,11 @@ export class DataBindingComponent {
  
   courseName:string = "Angular 18";
   inputType = "checkbox";
+  myClassName:string = "bg-primary";
 
   constructor(){
     //this.inputType="textbox";
-    
+
   }
 
 }

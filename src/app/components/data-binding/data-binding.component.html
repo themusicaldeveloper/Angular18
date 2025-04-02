@@ -12,13 +12,21 @@
 <div class="row">
     <div class="col-4">
         
-        <div class="row">
-            Interpolation
-            <div class="col-4">
+        <div class="row">            
+            <div class="col-4 bg-success">
+                Interpolation
                 <h3>{{courseName}}</h3>
                 <div>{{courseName}}</div>
                 <input type="text" value="{{courseName}}" placeholder="Enter course"/>
                 <input type="{{inputType}}">
+            </div>
+            <div class="col-4">
+                Property Binding
+                <div [class]="myClassName">                    
+                    Just put the property you want to bind into [] and use the variable name directly in = 
+                    <input type="text" [value]="courseName"/>
+                    <input [type]="inputType"/>
+                </div>
             </div>
         </div>        
     </div>
