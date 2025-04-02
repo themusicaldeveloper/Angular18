@@ -17,4 +17,10 @@ export class DataBindingComponent {
 
   }
 
+  showMessage(message:string)
+  {
+    console.error(message)
+    alert(message)
+  }
+
 }
