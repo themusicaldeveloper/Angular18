@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { NgModule  } from '@angular/core';
 import { FormsModule   } from '@angular/forms';
 
@@ -13,9 +13,13 @@ export class DataBindingComponent {
   courseName:string = "Angular 18";
   inputType = "checkbox";
   myClassName:string = "bg-primary";
+  stateName:string = "Gujarat";
+
+  firstName = signal("Ajay Solanki");
 
   constructor(){
     //this.inputType="textbox";
+    
 
   }
 
@@ -27,5 +31,6 @@ export class DataBindingComponent {
 
   changeCourseName(){  
     this.courseName = "React Native";
+    this.firstName.set("Vijay");
   }
 }
