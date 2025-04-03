@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { NgModule  } from '@angular/core';
+import { FormsModule   } from '@angular/forms';
 
 @Component({
   selector: 'app-data-binding',
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './data-binding.component.html',
   styleUrl: './data-binding.component.css'
 })
@@ -24,6 +26,6 @@ export class DataBindingComponent {
   }
 
   changeCourseName(){  
-    this.courseName = "Angular 20";
+    this.courseName = "React Native";
   }
 }
