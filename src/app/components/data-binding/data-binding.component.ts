@@ -23,4 +23,7 @@ export class DataBindingComponent {
     alert(message)
   }
 
+  changeCourseName(){  
+    this.courseName = "Angular 20";
+  }
 }
