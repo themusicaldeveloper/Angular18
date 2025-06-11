@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+=======
+import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+>>>>>>> b3e7649dfc3d5c2cb18f01e787b1208163fe3b20
 @Component({
   selector: 'app-attribute-dir',
   imports: [CommonModule,FormsModule],
@@ -8,6 +15,7 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './attribute-dir.component.css'
 })
 export class AttributeDirComponent {
+<<<<<<< HEAD
   divBgColor:string = 'bg-primary';
   isDiv2Active:boolean = false;
 
@@ -36,3 +44,7 @@ studentList: any[] = [
     this.isDiv2Active=!this.isDiv2Active;
   }
 }
+=======
+
+}
+>>>>>>> b3e7649dfc3d5c2cb18f01e787b1208163fe3b20
