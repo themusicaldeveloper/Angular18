@@ -24,6 +24,14 @@ studentList: any[] = [
 { Id:5, TotalMarks:28, Gender:"male", Name:'Shiv', City:'Kailash', Active:true},
 ]
 
+customStyle:any =
+{
+  'background-color':'yellow',
+  'color':'black',
+  'height':'100px',
+  'width':'250px',
+  'margin-left':'100px'  
+};
 
 
   addRedClass(){
